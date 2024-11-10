@@ -1,0 +1,134 @@
+#primeiro{
+    background: rgb(0,0,0);
+    background: linear-gradient(170deg, rgba(0,0,0,1) 0%, rgb(35 0 0) 46%, rgba(255,0,0,1) 65%); /*Serve para fazer cor gradiente*/
+    margin: -10px -10px 10px -10px; /*<- Serve para nao ficar bordas brancas*/
+    padding: 25px 25px;
+}
+
+img{
+    margin: 10px 5px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+button{
+    margin-left: 5px;
+    background-color: rgb(145, 0, 0);
+    border-style: solid;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    /*Serve para ficar o"agarradinho" do ponteiro do mouse*/
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    transition: 600ms;
+    -webkit-transition: 600ms;
+    -moz-transition: 600ms;
+    -ms-transition: 600ms;
+    -o-transition: 600ms;
+}
+
+button:hover{
+    background: black;
+    border-color: white;
+    transition: 500ms;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+}
+
+#navegacao{
+    background: rgb(0,0,0);
+    background: linear-gradient(3deg, rgba(0,0,0,1) 0%, rgba(38, 9, 9) 56%, rgba(255,0,0,1) 81%);
+    padding: 25px 25px;
+    margin: -10px -10px -10px -10px;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#segundo{
+    font-size: xx-large;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 25px 25px;
+    margin: -10px -10px -10px -10px;
+    background: rgb(0,0,0);
+    background: linear-gradient(160deg, rgba(0,0,0,1) 0%, rgb(38, 9, 9) 43%, rgba(255,0,0,1) 65%);
+}
+
+#sobre{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 5px rgba(0, 0, 0, 0.444);
+    background-color: rgba(0, 0, 0, 0.444);
+    padding: 2%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: default;
+    
+}
+
+#quarto{
+    padding: 100px 100px;
+    margin: -10px -10px -10px -10px;
+    background: rgb(0,0,0);
+    background: linear-gradient(171deg, rgba(0,0,0,1) 0%, rgb(38, 9, 9) 43%, rgba(255,0,0,1) 65%);
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+
+.imagemicone{
+    transition: 500ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+}
+/*O ponto se refere a classe que é um atributo que ao contrario do id que é unico, o class pode se usar em varias tag*/
+.imagemicone:hover{
+    transition: 500ms;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    -ms-transition: 500ms;
+    -o-transition: 500ms;
+}
+
+#segundo img{
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+}
+
+#primeiro h5{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
